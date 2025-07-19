@@ -4,4 +4,15 @@ openai
 python-dotenv
 instaloader
 gunicorn
-Flask
+
+flask
+
+nltk
+transformers
+torch
+requests
+beautifulsoup4
+pytube
+textblob
+scikit-learn
+pandas
