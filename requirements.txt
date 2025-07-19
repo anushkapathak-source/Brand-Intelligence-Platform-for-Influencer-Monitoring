@@ -3,3 +3,4 @@ google-auth
 openai
 python-dotenv
 instaloader
+gunicorn
