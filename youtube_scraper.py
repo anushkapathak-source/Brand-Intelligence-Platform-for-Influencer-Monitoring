@@ -1,7 +1,7 @@
 from googleapiclient.discovery import build
 import os
 
-API_KEY = os.getenv("YOUTUBE_API_KEY", "AIzaSyAacUy7TlWT0WPPZtW2RvM8EP0PqbEiATg")  # fallback key
+API_KEY = os.getenv("YOUTUBE_API_KEY", "")  # fallback key
 
 def fetch_youtube_videos(channel_id, max_results=5):
     try:
